@@ -13,5 +13,5 @@ FOR /L %%A IN (1,1,100) DO (
 )
 
 :Hehe
-hehe.png
+hehe.jpg
 goto Hehe
